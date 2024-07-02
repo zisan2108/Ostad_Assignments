@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile-image img {
+    width: 50%;
+    height: auto;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-info h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #777;
+}
+
+.profile-info p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-info p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+</style>
+
+
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="https://avatars.githubusercontent.com/u/44030115?v=4" alt="Profile Image">
+        </div>
+        <div class="profile-info">
+            <h1>Nahiduzzaman Zisan</h1>
+            <h2>Software Engineer</h2>
+            <p>I'm a passionate software engineer with a love for building innovative web applications.</p>
+            <div class="contact-info">
+                <p>Email: zisan979@gmail.com</p>
+                <p>Mobile: +8801773-509296</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
